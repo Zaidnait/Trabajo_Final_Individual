@@ -1,0 +1,23 @@
+---
+title: "00_Lectura_Censo_Personas"
+author: "Sebastián Díaz Osorio"
+date: '2022-06-27'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r} 
+library(readr)
+``` 
+
+```{r} 
+# Lecturas a las distitintas bases de datos
+
+personas_ant<- read.csv("Datos/Datos_Originales/Departamentos/05Antioquia/05_Antioquia_CSV/CNPV2018_5PER_A2_05.CSV")
+
+
+
+```
